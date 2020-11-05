@@ -25,7 +25,7 @@ For running all integration tests execute
 
 ## Installing the component
 Run from the command line:
-- `mvn clean install -DskipTests`
+- `mvn clean install -DskipTests -Drelease=true`
 
 ## Using the component in a Flow application
 To use the component in an application using maven,
